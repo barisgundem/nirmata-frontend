@@ -69,7 +69,7 @@ function Sidebar(props: SidebarProps) {
                   <HiBolt className="h-5 w-5" />
                 </div>
                 <h5 className="me-2 text-2xl font-bold leading-5 text-zinc-950 dark:text-white">
-                  Horizon AI
+                  NIRMATA
                 </h5>
                 
               </div>
@@ -81,9 +81,9 @@ function Sidebar(props: SidebarProps) {
             </div>
             {/* Free Horizon Card    */}
             <div className="mb-9 mt-7">
-              <div className="flex justify-center">
+              {/* <div className="flex justify-center">
                 <SidebarCard />
-              </div>
+              </div> */}
 
               {/* Sidebar profile info */}
               <div className="mt-5 flex w-full items-center rounded-lg border border-zinc-200 p-4 dark:border-zinc-800">
